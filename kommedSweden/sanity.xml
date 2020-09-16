@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Sanity" verbose="10">
+	<test thread-count="5" name="Test">
+		<groups>
+			<run>
+				<exclude name="regression" />
+			</run>
+		</groups>
+	<classes>
+		<class name="com.kommedSweden.person_and_company.test_person_company_new" />
+		<class name="com.kommedSweden.person_and_company.test_person_company_preferences_relationship" />
+		<class name="com.kommedSweden.person_and_company.test_person_company_preferences_properties" />
+		<class name="com.kommedSweden.person_and_company.test_person_company_preferences_persontype" />
+		<class name="com.kommedSweden.person_and_company.test_person_company_preferences_permissions0" />
+		<class name="com.kommedSweden.person_and_company.test_person_company_preferences_permissions1" />
+		<class name="com.kommedSweden.person_and_company.test_person_company_preferences_users" />
+		<class name="com.kommedSweden.person_and_company.test_person_company_preferences_commitment" />
+		<class name="com.kommedSweden.person_and_company.test_person_preferences_child_sponsorship" />
+		<class name="com.kommedSweden.person_and_company.test_person_company_preferences_group_types" />
+		<class name="com.kommedSweden.person_and_company.test_person_company_preferences_free_properties" />
+		<class name="com.kommedSweden.person_and_company.test_person_company_templates_web_pg" />
+		<class name="com.kommedSweden.person_and_company.test_person_company_templates_email_templates" />
+		<class name="com.kommedSweden.person_and_company.test_person_company_create_user_email_report" />
+		<class name="com.kommedSweden.person_and_company.test_person_company_create_user_client_list" />
+		<class name="com.kommedSweden.person_and_company.test_person_company_search" />
+	</classes>
+	</test> <!-- Test -->
+</suite> <!-- Sanity -->

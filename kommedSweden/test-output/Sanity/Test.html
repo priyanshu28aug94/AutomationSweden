@@ -1,0 +1,419 @@
+<html>
+<head>
+<title>TestNG:  Test</title>
+<link href="../testng.css" rel="stylesheet" type="text/css" />
+<link href="../my-testng.css" rel="stylesheet" type="text/css" />
+
+<style type="text/css">
+.log { display: none;} 
+.stack-trace { display: none;} 
+</style>
+<script type="text/javascript">
+<!--
+function flip(e) {
+  current = e.style.display;
+  if (current == 'block') {
+    e.style.display = 'none';
+    return 0;
+  }
+  else {
+    e.style.display = 'block';
+    return 1;
+  }
+}
+
+function toggleBox(szDivId, elem, msg1, msg2)
+{
+  var res = -1;  if (document.getElementById) {
+    res = flip(document.getElementById(szDivId));
+  }
+  else if (document.all) {
+    // this is the way old msie versions work
+    res = flip(document.all[szDivId]);
+  }
+  if(elem) {
+    if(res == 0) elem.innerHTML = msg1; else elem.innerHTML = msg2;
+  }
+
+}
+
+function toggleAllBoxes() {
+  if (document.getElementsByTagName) {
+    d = document.getElementsByTagName('div');
+    for (i = 0; i < d.length; i++) {
+      if (d[i].className == 'log') {
+        flip(d[i]);
+      }
+    }
+  }
+}
+
+// -->
+</script>
+
+</head>
+<body>
+<h2 align='center'>Test</h2><table border='1' align="center">
+<tr>
+<td>Tests passed/Failed/Skipped:</td><td>68/0/0</td>
+</tr><tr>
+<td>Started on:</td><td>Thu Aug 20 00:49:56 IST 2020</td>
+</tr>
+<tr><td>Total time:</td><td>1451 seconds (1451700 ms)</td>
+</tr><tr>
+<td>Included groups:</td><td></td>
+</tr><tr>
+<td>Excluded groups:</td><td>regression </td>
+</tr>
+</table><p/>
+<small><i>(Hover the method name to see the test class name)</i></small><p/>
+<table width='100%' border='1' class='invocation-passed'>
+<tr><td colspan='4' align='center'><b>PASSED TESTS</b></td></tr>
+<tr><td><b>Test method</b></td>
+<td width="30%"><b>Exception</b></td>
+<td width="10%"><b>Time (seconds)</b></td>
+<td><b>Instance</b></td>
+</tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_preferences_properties.person_company_032()'><b>person_company_032</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_preferences_properties</td>
+<td></td>
+<td>8</td>
+<td>com.kommedSweden.person_and_company.test_person_company_preferences_properties@1bce4f0a</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_preferences_properties.person_company_033()'><b>person_company_033</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_preferences_properties</td>
+<td></td>
+<td>8</td>
+<td>com.kommedSweden.person_and_company.test_person_company_preferences_properties@1bce4f0a</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_preferences_properties.person_company_034()'><b>person_company_034</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_preferences_properties</td>
+<td></td>
+<td>9</td>
+<td>com.kommedSweden.person_and_company.test_person_company_preferences_properties@1bce4f0a</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_preferences_persontype.person_company_042()'><b>person_company_042</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_preferences_persontype</td>
+<td></td>
+<td>5</td>
+<td>com.kommedSweden.person_and_company.test_person_company_preferences_persontype@5e3a8624</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_preferences_permissions0.person_company_043()'><b>person_company_043</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_preferences_permissions0</td>
+<td></td>
+<td>5</td>
+<td>com.kommedSweden.person_and_company.test_person_company_preferences_permissions0@5c3bd550</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_preferences_permissions1.person_company_044()'><b>person_company_044</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_preferences_permissions1</td>
+<td></td>
+<td>5</td>
+<td>com.kommedSweden.person_and_company.test_person_company_preferences_permissions1@91161c7</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_preferences_users.person_company_045()'><b>person_company_045</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_preferences_users</td>
+<td></td>
+<td>7</td>
+<td>com.kommedSweden.person_and_company.test_person_company_preferences_users@604ed9f0</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_preferences_commitment.person_company_046()'><b>person_company_046</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_preferences_commitment</td>
+<td></td>
+<td>6</td>
+<td>com.kommedSweden.person_and_company.test_person_company_preferences_commitment@6a4f787b</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_preferences_commitment.person_company_047()'><b>person_company_047</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_preferences_commitment</td>
+<td></td>
+<td>14</td>
+<td>com.kommedSweden.person_and_company.test_person_company_preferences_commitment@6a4f787b</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_preferences_commitment.person_company_048()'><b>person_company_048</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_preferences_commitment</td>
+<td></td>
+<td>6</td>
+<td>com.kommedSweden.person_and_company.test_person_company_preferences_commitment@6a4f787b</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_preferences_child_sponsorship.person_company_049()'><b>person_company_049</b><br>Test class: com.kommedSweden.person_and_company.test_person_preferences_child_sponsorship</td>
+<td></td>
+<td>6</td>
+<td>com.kommedSweden.person_and_company.test_person_preferences_child_sponsorship@685cb137</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_preferences_child_sponsorship.person_company_050()'><b>person_company_050</b><br>Test class: com.kommedSweden.person_and_company.test_person_preferences_child_sponsorship</td>
+<td></td>
+<td>6</td>
+<td>com.kommedSweden.person_and_company.test_person_preferences_child_sponsorship@685cb137</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_preferences_group_types.person_company_051()'><b>person_company_051</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_preferences_group_types</td>
+<td></td>
+<td>8</td>
+<td>com.kommedSweden.person_and_company.test_person_company_preferences_group_types@6a41eaa2</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_preferences_group_types.person_company_052()'><b>person_company_052</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_preferences_group_types</td>
+<td></td>
+<td>15</td>
+<td>com.kommedSweden.person_and_company.test_person_company_preferences_group_types@6a41eaa2</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_preferences_group_types.person_company_053()'><b>person_company_053</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_preferences_group_types</td>
+<td></td>
+<td>6</td>
+<td>com.kommedSweden.person_and_company.test_person_company_preferences_group_types@6a41eaa2</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_preferences_free_properties.person_company_057()'><b>person_company_057</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_preferences_free_properties</td>
+<td></td>
+<td>16</td>
+<td>com.kommedSweden.person_and_company.test_person_company_preferences_free_properties@7cd62f43</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_preferences_free_properties.person_company_058()'><b>person_company_058</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_preferences_free_properties</td>
+<td></td>
+<td>6</td>
+<td>com.kommedSweden.person_and_company.test_person_company_preferences_free_properties@7cd62f43</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_create_user_email_report.person_company_066()'><b>person_company_066</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_create_user_email_report</td>
+<td></td>
+<td>9</td>
+<td>com.kommedSweden.person_and_company.test_person_company_create_user_email_report@5622fdf</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_create_user_client_list.person_company_067()'><b>person_company_067</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_create_user_client_list</td>
+<td></td>
+<td>11</td>
+<td>com.kommedSweden.person_and_company.test_person_company_create_user_client_list@4883b407</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_create_user_client_list.person_company_068()'><b>person_company_068</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_create_user_client_list</td>
+<td></td>
+<td>16</td>
+<td>com.kommedSweden.person_and_company.test_person_company_create_user_client_list@4883b407</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_create_user_client_list.person_company_069()'><b>person_company_069</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_create_user_client_list</td>
+<td></td>
+<td>20</td>
+<td>com.kommedSweden.person_and_company.test_person_company_create_user_client_list@4883b407</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_search.person_company_1()'><b>person_company_1</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_search</td>
+<td></td>
+<td>3</td>
+<td>com.kommedSweden.person_and_company.test_person_company_search@7d9d1a19</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_search.person_company_10()'><b>person_company_10</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_search</td>
+<td></td>
+<td>7</td>
+<td>com.kommedSweden.person_and_company.test_person_company_search@7d9d1a19</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_search.person_company_11()'><b>person_company_11</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_search</td>
+<td></td>
+<td>62</td>
+<td>com.kommedSweden.person_and_company.test_person_company_search@7d9d1a19</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_search.person_company_12()'><b>person_company_12</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_search</td>
+<td></td>
+<td>6</td>
+<td>com.kommedSweden.person_and_company.test_person_company_search@7d9d1a19</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_search.person_company_13()'><b>person_company_13</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_search</td>
+<td></td>
+<td>6</td>
+<td>com.kommedSweden.person_and_company.test_person_company_search@7d9d1a19</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_search.person_company_14()'><b>person_company_14</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_search</td>
+<td></td>
+<td>6</td>
+<td>com.kommedSweden.person_and_company.test_person_company_search@7d9d1a19</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_search.person_company_15()'><b>person_company_15</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_search</td>
+<td></td>
+<td>6</td>
+<td>com.kommedSweden.person_and_company.test_person_company_search@7d9d1a19</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_search.person_company_16()'><b>person_company_16</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_search</td>
+<td></td>
+<td>6</td>
+<td>com.kommedSweden.person_and_company.test_person_company_search@7d9d1a19</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_search.person_company_17()'><b>person_company_17</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_search</td>
+<td></td>
+<td>7</td>
+<td>com.kommedSweden.person_and_company.test_person_company_search@7d9d1a19</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_search.person_company_18()'><b>person_company_18</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_search</td>
+<td></td>
+<td>10</td>
+<td>com.kommedSweden.person_and_company.test_person_company_search@7d9d1a19</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_search.person_company_19()'><b>person_company_19</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_search</td>
+<td></td>
+<td>9</td>
+<td>com.kommedSweden.person_and_company.test_person_company_search@7d9d1a19</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_search.person_company_2()'><b>person_company_2</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_search</td>
+<td></td>
+<td>21</td>
+<td>com.kommedSweden.person_and_company.test_person_company_search@7d9d1a19</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_search.person_company_20()'><b>person_company_20</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_search</td>
+<td></td>
+<td>8</td>
+<td>com.kommedSweden.person_and_company.test_person_company_search@7d9d1a19</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_search.person_company_21()'><b>person_company_21</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_search</td>
+<td></td>
+<td>6</td>
+<td>com.kommedSweden.person_and_company.test_person_company_search@7d9d1a19</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_search.person_company_22()'><b>person_company_22</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_search</td>
+<td></td>
+<td>8</td>
+<td>com.kommedSweden.person_and_company.test_person_company_search@7d9d1a19</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_search.person_company_23()'><b>person_company_23</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_search</td>
+<td></td>
+<td>6</td>
+<td>com.kommedSweden.person_and_company.test_person_company_search@7d9d1a19</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_search.person_company_25()'><b>person_company_25</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_search</td>
+<td></td>
+<td>6</td>
+<td>com.kommedSweden.person_and_company.test_person_company_search@7d9d1a19</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_search.person_company_26()'><b>person_company_26</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_search</td>
+<td></td>
+<td>6</td>
+<td>com.kommedSweden.person_and_company.test_person_company_search@7d9d1a19</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_new.person_company_27()'><b>person_company_27</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_new</td>
+<td></td>
+<td>3</td>
+<td>com.kommedSweden.person_and_company.test_person_company_new@42d80b78</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_new.person_company_28()'><b>person_company_28</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_new</td>
+<td></td>
+<td>6</td>
+<td>com.kommedSweden.person_and_company.test_person_company_new@42d80b78</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_search.person_company_3()'><b>person_company_3</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_search</td>
+<td></td>
+<td>12</td>
+<td>com.kommedSweden.person_and_company.test_person_company_search@7d9d1a19</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_search.person_company_4()'><b>person_company_4</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_search</td>
+<td></td>
+<td>8</td>
+<td>com.kommedSweden.person_and_company.test_person_company_search@7d9d1a19</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_search.person_company_5()'><b>person_company_5</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_search</td>
+<td></td>
+<td>65</td>
+<td>com.kommedSweden.person_and_company.test_person_company_search@7d9d1a19</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_search.person_company_6()'><b>person_company_6</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_search</td>
+<td></td>
+<td>59</td>
+<td>com.kommedSweden.person_and_company.test_person_company_search@7d9d1a19</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_search.person_company_7()'><b>person_company_7</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_search</td>
+<td></td>
+<td>5</td>
+<td>com.kommedSweden.person_and_company.test_person_company_search@7d9d1a19</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_search.person_company_8()'><b>person_company_8</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_search</td>
+<td></td>
+<td>61</td>
+<td>com.kommedSweden.person_and_company.test_person_company_search@7d9d1a19</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_search.person_company_9()'><b>person_company_9</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_search</td>
+<td></td>
+<td>49</td>
+<td>com.kommedSweden.person_and_company.test_person_company_search@7d9d1a19</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_preferences_relationship.preson_company_029()'><b>preson_company_029</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_preferences_relationship</td>
+<td></td>
+<td>6</td>
+<td>com.kommedSweden.person_and_company.test_person_company_preferences_relationship@3bfdc050</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_preferences_relationship.preson_company_030()'><b>preson_company_030</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_preferences_relationship</td>
+<td></td>
+<td>15</td>
+<td>com.kommedSweden.person_and_company.test_person_company_preferences_relationship@3bfdc050</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_preferences_relationship.preson_company_031()'><b>preson_company_031</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_preferences_relationship</td>
+<td></td>
+<td>6</td>
+<td>com.kommedSweden.person_and_company.test_person_company_preferences_relationship@3bfdc050</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_preferences_properties.preson_company_035()'><b>preson_company_035</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_preferences_properties</td>
+<td></td>
+<td>8</td>
+<td>com.kommedSweden.person_and_company.test_person_company_preferences_properties@1bce4f0a</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_preferences_properties.preson_company_036()'><b>preson_company_036</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_preferences_properties</td>
+<td></td>
+<td>16</td>
+<td>com.kommedSweden.person_and_company.test_person_company_preferences_properties@1bce4f0a</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_preferences_properties.preson_company_037()'><b>preson_company_037</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_preferences_properties</td>
+<td></td>
+<td>6</td>
+<td>com.kommedSweden.person_and_company.test_person_company_preferences_properties@1bce4f0a</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_preferences_properties.preson_company_038()'><b>preson_company_038</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_preferences_properties</td>
+<td></td>
+<td>8</td>
+<td>com.kommedSweden.person_and_company.test_person_company_preferences_properties@1bce4f0a</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_preferences_properties.preson_company_039()'><b>preson_company_039</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_preferences_properties</td>
+<td></td>
+<td>15</td>
+<td>com.kommedSweden.person_and_company.test_person_company_preferences_properties@1bce4f0a</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_preferences_properties.preson_company_040()'><b>preson_company_040</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_preferences_properties</td>
+<td></td>
+<td>4</td>
+<td>com.kommedSweden.person_and_company.test_person_company_preferences_properties@1bce4f0a</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_preferences_properties.preson_company_041()'><b>preson_company_041</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_preferences_properties</td>
+<td></td>
+<td>8</td>
+<td>com.kommedSweden.person_and_company.test_person_company_preferences_properties@1bce4f0a</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_preferences_free_properties.preson_company_054()'><b>preson_company_054</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_preferences_free_properties</td>
+<td></td>
+<td>8</td>
+<td>com.kommedSweden.person_and_company.test_person_company_preferences_free_properties@7cd62f43</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_preferences_free_properties.preson_company_055()'><b>preson_company_055</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_preferences_free_properties</td>
+<td></td>
+<td>8</td>
+<td>com.kommedSweden.person_and_company.test_person_company_preferences_free_properties@7cd62f43</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_preferences_free_properties.preson_company_056()'><b>preson_company_056</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_preferences_free_properties</td>
+<td></td>
+<td>8</td>
+<td>com.kommedSweden.person_and_company.test_person_company_preferences_free_properties@7cd62f43</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_templates_web_pg.preson_company_059()'><b>preson_company_059</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_templates_web_pg</td>
+<td></td>
+<td>6</td>
+<td>com.kommedSweden.person_and_company.test_person_company_templates_web_pg@6d4b1c02</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_templates_web_pg.preson_company_060()'><b>preson_company_060</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_templates_web_pg</td>
+<td></td>
+<td>15</td>
+<td>com.kommedSweden.person_and_company.test_person_company_templates_web_pg@6d4b1c02</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_templates_web_pg.preson_company_061()'><b>preson_company_061</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_templates_web_pg</td>
+<td></td>
+<td>6</td>
+<td>com.kommedSweden.person_and_company.test_person_company_templates_web_pg@6d4b1c02</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_templates_web_pg.preson_company_062()'><b>preson_company_062</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_templates_web_pg</td>
+<td></td>
+<td>6</td>
+<td>com.kommedSweden.person_and_company.test_person_company_templates_web_pg@6d4b1c02</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_templates_email_templates.preson_company_063()'><b>preson_company_063</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_templates_email_templates</td>
+<td></td>
+<td>7</td>
+<td>com.kommedSweden.person_and_company.test_person_company_templates_email_templates@6093dd95</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_templates_email_templates.preson_company_064()'><b>preson_company_064</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_templates_email_templates</td>
+<td></td>
+<td>6</td>
+<td>com.kommedSweden.person_and_company.test_person_company_templates_email_templates@6093dd95</td></tr>
+<tr>
+<td title='com.kommedSweden.person_and_company.test_person_company_templates_email_templates.preson_company_065()'><b>preson_company_065</b><br>Test class: com.kommedSweden.person_and_company.test_person_company_templates_email_templates</td>
+<td></td>
+<td>7</td>
+<td>com.kommedSweden.person_and_company.test_person_company_templates_email_templates@6093dd95</td></tr>
+</table><p>
+</body>
+</html>

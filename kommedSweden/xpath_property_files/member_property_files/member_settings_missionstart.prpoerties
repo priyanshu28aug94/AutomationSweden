@@ -1,0 +1,6 @@
+member=//div[@id='cssmenu']/ul/li[4]/a
+settings=//div[@id='cssmenu']/ul/li[4]/ul/li[3]/a
+start_mission=//div[@id='cssmenu']/ul/li[4]/ul/li[3]/ul/li[2]/a
+new_occasion=//input[@name='text_newrelationtypename']
+save_occasion=//input[@name='submitbtn']
+new_mission_title=//div[@id='pagetitle']

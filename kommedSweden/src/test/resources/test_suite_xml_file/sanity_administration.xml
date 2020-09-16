@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.kommedSweden.administration.test_administration_settings"/>
+      <class name="com.kommedSweden.administration.test_administration_kommed"/>
+      <class name="com.kommedSweden.administration.test_administration_language"/>
+      <class name="com.kommedSweden.administration.test_administration_menu_setting"/>
+      <class name="com.kommedSweden.administration.test_administration_things_to_do"/>
+      <class name="com.kommedSweden.administration.test_administration_filemanagement"/>
+      <class name="com.kommedSweden.administration.test_administration_statistic_reduction"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

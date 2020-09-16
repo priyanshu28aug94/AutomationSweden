@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.kommedSweden.member.test_member_reports_membership_stat_year"/>
+      <class name="com.kommedSweden.member.test_member_settings_missionstart"/>
+      <class name="com.kommedSweden.member.test_member_settings_membercategories"/>
+      <class name="com.kommedSweden.member.test_member_reports_member_state"/>
+      <class name="com.kommedSweden.member.test_member_organization"/>
+      <class name="com.kommedSweden.member.test_member_reports_member_report"/>
+      <class name="com.kommedSweden.member.test_member_reports_parish_statistics"/>
+      <class name="com.kommedSweden.member.test_member_settings_memberclose"/>
+      <class name="com.kommedSweden.member.test_member_settings_mission"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.komedSweden.billing.test_billing_create_invoice"/>
+      <class name="com.komedSweden.billing.test_billing"/>
+      <class name="com.komedSweden.billing.test_billing_reports_daily_reports"/>
+      <class name="com.komedSweden.billing.test_billing_search_invoicebundle"/>
+      <class name="com.komedSweden.billing.test_billing_print_invoice"/>
+      <class name="com.komedSweden.billing.test_billing_templates_invoice_template"/>
+      <class name="com.komedSweden.billing.test_billing_templates_paying"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

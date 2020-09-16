@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test name="Default test(failed)">
+    <classes>
+      <class name="com.kommedSweden.home_page.test_home_page">
+        <methods>
+          <include name="login_page"/>
+          <include name="initializeDriver"/>
+          <include name="home_page_01"/>
+          <include name="logout_page"/>
+          <include name="close_browser"/>
+          <include name="delete_folder"/>
+        </methods>
+      </class> <!-- com.kommedSweden.home_page.test_home_page -->
+    </classes>
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->

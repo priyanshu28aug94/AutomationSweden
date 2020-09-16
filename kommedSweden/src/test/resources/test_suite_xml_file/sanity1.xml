@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="SanityTestSuite">
+    <classes>
+      <class name="com.kommedSweden.person_and_company.test_person_company_preferences_commitment"/>
+      <class name="com.kommedSweden.person_and_company.test_person_company_templates_email_templates"/>
+      <class name="com.kommedSweden.person_and_company.test_person_company_preferences_users"/>
+      <class name="com.kommedSweden.person_and_company.test_person_company_create_user_email_report"/>
+      <class name="com.kommedSweden.person_and_company.test_person_company_new"/>
+      <class name="com.kommedSweden.person_and_company.test_person_company_preferences_group_types"/>
+      <class name="com.kommedSweden.person_and_company.test_person_company_search"/>
+      <class name="com.kommedSweden.person_and_company.test_person_company_templates_web_pg"/>
+      <class name="com.kommedSweden.person_and_company.test_person_company_preferences_permissions0"/>
+      <class name="com.kommedSweden.person_and_company.test_person_company_preferences_properties"/>
+      <class name="com.kommedSweden.person_and_company.test_person_company_preferences_permissions1"/>
+      <class name="com.komedSweden.billing.test_billing_create_invoice"/>
+      <class name="com.komedSweden.billing.test_billing"/>
+      <class name="com.komedSweden.billing.test_billing_reports_daily_reports"/>
+      <class name="com.komedSweden.billing.test_billing_search_invoicebundle"/>
+      <class name="com.komedSweden.billing.test_billing_print_invoice"/>
+      <class name="com.komedSweden.billing.test_billing_templates_paying"/>
+      <class name="com.komedSweden.billing.test_billing_templates_invoice_template"/>
+      <class name="com.kommedSweden.person_and_company.test_person_company_preferences_free_properties"/>
+      <class name="com.kommedSweden.person_and_company.test_person_preferences_child_sponsorship"/>
+      <class name="com.kommedSweden.person_and_company.test_person_company_preferences_persontype"/>
+      <class name="com.kommedSweden.person_and_company.test_person_company_create_user_client_list"/>
+      <class name="com.kommedSweden.person_and_company.test_person_company_preferences_relationship"/>
+      <class name="com.kommedSweden.collection.Test_collection_purpose"/>
+      <class name="com.kommedSweden.collection.test_collection_register_payment"/>
+      <class name="com.kommedSweden.collection.Test_collection_memorial_gift"/>
+      <class name="com.kommedSweden.collection.Test_collection_congratulation_gift"/>
+      <class name="com.kommedSweden.event.test_event_reports_competitor"/>
+      <class name="com.kommedSweden.event.test_event_setting_event"/>
+      <class name="com.kommedSweden.event.test_event_setting_evroll"/>
+      <class name="com.kommedSweden.event.test_event_templates_event_letter"/>
+      <class name="com.kommedSweden.event.test_event_setting_evdeltstatus"/>
+      <class name="com.kommedSweden.event.test_event_setting_evstatus"/>
+      <class name="com.kommedSweden.event.test_event_setting_evsubtype"/>
+      <class name="com.kommedSweden.member.test_member_reports_membership_stat_year"/>
+      <class name="com.kommedSweden.member.test_member_settings_missionstart"/>
+      <class name="com.kommedSweden.member.test_member_settings_membercategories"/>
+      <class name="com.kommedSweden.member.test_member_reports_member_state"/>
+      <class name="com.kommedSweden.member.test_member_organization"/>
+      <class name="com.kommedSweden.member.test_member_reports_member_report"/>
+      <class name="com.kommedSweden.member.test_member_reports_parish_statistics"/>
+      <class name="com.kommedSweden.member.test_member_settings_memberclose"/>
+      <class name="com.kommedSweden.member.test_member_settings_mission"/>
+      <class name="com.kommedSweden.administration.test_administration_settings"/>
+      <class name="com.kommedSweden.administration.test_administration_kommed"/>
+      <class name="com.kommedSweden.administration.test_administration_language"/>
+      <class name="com.kommedSweden.administration.test_administration_menu_setting"/>
+      <class name="com.kommedSweden.administration.test_administration_things_to_do"/>
+      <class name="com.kommedSweden.administration.test_administration_filemanagement"/>
+      <class name="com.kommedSweden.administration.test_administration_statistic_reduction"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

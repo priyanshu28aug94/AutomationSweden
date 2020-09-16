@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.kommedSweden.collection.Test_collection_purpose"/>
+      <class name="com.kommedSweden.collection.test_collection_register_payment"/>
+      <class name="com.kommedSweden.collection.Test_collection_memorial_gift"/>
+      <class name="com.kommedSweden.collection.Test_collection_congratulation_gift"/>
+      <class name="com.kommedSweden.collection.Test_collection_campaign"/>
+      <class name="com.kommedSweden.collection.Test_collection_prefrences_gift_types"/>
+      <class name="com.kommedSweden.collection.Test_collection_prefrences_start_reason"/>
+      <class name="com.kommedSweden.collection.Test_collection_report_thank_you"/>
+      <class name="com.kommedSweden.collection.Test_collection_reports_bank_statement"/>
+      <class name="com.kommedSweden.collection.Test_collection_reports_campaign_statistics"/>
+      <class name="com.kommedSweden.collection.Test_collection_reports_congratulation_card"/>
+      <class name="com.kommedSweden.collection.Test_collection_reports_gift_reports"/>
+      <class name="com.kommedSweden.collection.Test_collection_reports_gift_summaries"/>
+      <class name="com.kommedSweden.collection.Test_collection_reports_last_gift"/>
+      <class name="com.kommedSweden.collection.Test_collection_reports_memorial_card"/>
+      <class name="com.kommedSweden.collection.Test_collection_reports_register_overview"/>
+      <class name="com.kommedSweden.collection.Test_collection_reports_sms_reports"/>
+      <class name="com.kommedSweden.collection.Test_collection_reports_welcome_letter"/>
+      <class name="com.kommedSweden.collection.Test_collection_template_donor_letters"/>
+      <class name="com.kommedSweden.collection.Test_collection_template_memorial_congratulation_card"/>
+      <class name="com.kommedSweden.collection.Test_collection_template_sponsor_letter"/>
+      <class name="com.kommedSweden.collection.Test_collection_template_thankyou_letter"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="com.kommedSweden.event.test_event_reports_competitor"/>
+      <class name="com.kommedSweden.event.test_event_setting_event"/>
+      <class name="com.kommedSweden.event.test_event_setting_evroll"/>
+      <class name="com.kommedSweden.event.test_event_templates_event_letter"/>
+      <class name="com.kommedSweden.event.test_event_setting_evdeltstatus"/>
+      <class name="com.kommedSweden.event.test_event_setting_evstatus"/>
+      <class name="com.kommedSweden.event.test_event_setting_evsubtype"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

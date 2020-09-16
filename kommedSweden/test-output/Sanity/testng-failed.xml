@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" verbose="10" name="Failed suite [Sanity]">
+  <test name="Test(failed)">
+    <groups>
+      <run>
+        <exclude name="regression"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="com.kommedSweden.person_and_company.test_person_company_search">
+        <methods>
+          <include name="person_company_13"/>
+          <include name="person_company_12"/>
+          <include name="person_company_11"/>
+          <include name="person_company_10"/>
+          <include name="person_company_14"/>
+          <include name="person_company_17"/>
+          <include name="person_company_16"/>
+          <include name="person_company_15"/>
+          <include name="person_company_3"/>
+          <include name="person_company_19"/>
+          <include name="person_company_18"/>
+          <include name="person_company_20"/>
+          <include name="person_company_1"/>
+          <include name="person_company_2"/>
+          <include name="person_company_23"/>
+          <include name="person_company_22"/>
+          <include name="person_company_21"/>
+          <include name="person_company_5"/>
+          <include name="person_company_6"/>
+          <include name="person_company_25"/>
+          <include name="person_company_4"/>
+          <include name="person_company_9"/>
+          <include name="person_company_7"/>
+          <include name="person_company_8"/>
+          <include name="login_page"/>
+          <include name="initializeDriver"/>
+          <include name="logout_page"/>
+          <include name="close_browser"/>
+          <include name="person_company_26"/>
+        </methods>
+      </class> <!-- com.kommedSweden.person_and_company.test_person_company_search -->
+      <class name="com.kommedSweden.person_and_company.test_person_company_templates_email_templates">
+        <methods>
+          <include name="login_page"/>
+          <include name="initializeDriver"/>
+          <include name="logout_page"/>
+          <include name="close_browser"/>
+          <include name="preson_company_065"/>
+          <include name="preson_company_064"/>
+          <include name="preson_company_063"/>
+        </methods>
+      </class> <!-- com.kommedSweden.person_and_company.test_person_company_templates_email_templates -->
+      <class name="com.kommedSweden.person_and_company.test_person_company_templates_web_pg">
+        <methods>
+          <include name="login_page"/>
+          <include name="initializeDriver"/>
+          <include name="logout_page"/>
+          <include name="close_browser"/>
+          <include name="preson_company_059"/>
+          <include name="preson_company_060"/>
+          <include name="preson_company_062"/>
+          <include name="preson_company_061"/>
+        </methods>
+      </class> <!-- com.kommedSweden.person_and_company.test_person_company_templates_web_pg -->
+      <class name="com.kommedSweden.person_and_company.test_person_company_create_user_email_report">
+        <methods>
+          <include name="login_page"/>
+          <include name="initializeDriver"/>
+          <include name="person_company_066"/>
+          <include name="logout_page"/>
+          <include name="close_browser"/>
+        </methods>
+      </class> <!-- com.kommedSweden.person_and_company.test_person_company_create_user_email_report -->
+      <class name="com.kommedSweden.person_and_company.test_person_company_create_user_client_list">
+        <methods>
+          <include name="login_page"/>
+          <include name="initializeDriver"/>
+          <include name="logout_page"/>
+          <include name="close_browser"/>
+          <include name="person_company_068"/>
+          <include name="person_company_069"/>
+          <include name="person_company_067"/>
+        </methods>
+      </class> <!-- com.kommedSweden.person_and_company.test_person_company_create_user_client_list -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Sanity] -->
